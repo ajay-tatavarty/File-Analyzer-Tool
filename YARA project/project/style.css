@@ -1,0 +1,139 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    background: linear-gradient(to bottom right, #1e3c72, #2a5298);
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Header Section */
+  #header {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid #f64f59;
+  }
+  
+  #header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  #header p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  /* Main Content */
+  #main-content {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  #features, #about, #file-upload {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  #features h2, #about h2, #file-upload h2 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: #f64f59;
+  }
+  
+  #features ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #features li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  #file-upload p {
+    font-size: 1rem;
+  }
+  
+  #file-input {
+    margin: 15px 0;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px dashed #ffffff;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+  }
+  
+  #scan-button {
+    padding: 10px 20px;
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    border: none;
+    border-radius: 25px;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  #scan-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(246, 79, 89, 0.4);
+  }
+  
+  /* Footer */
+  #footer {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    color: #bdbdbd;
+    font-size: 0.9rem;
+  }
+  
+  #footer a {
+    color: #f64f59;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  #footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Draggable Element Styling */
+  [draggable="true"] {
+    cursor: grab;
+  }
+  
+  [draggable="true"]:active {
+    cursor: grabbing;
+  }
+  
